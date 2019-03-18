@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var array = [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
+	var array [10]int = [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
 
 	fmt.Printf("高级打印方法：%v \n", array)
 	// 现在的z就变为了动态数组slice，类似于指针。切片操作将数组变为切片
